@@ -10,5 +10,5 @@ def hash(filename):
 
     return h.hexdigest()
 
-message = hash_file("track.mp3")
+message = hash("track.mp3")
 print message
