@@ -1,7 +1,7 @@
 def factorial(num):
         factorial = 1
         if num<0:
-            return false
+            return False
         elif num==0:
             print "factorial of 0 is 1"
             return False
